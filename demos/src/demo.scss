@@ -9,7 +9,7 @@ body {
 .demo-utilities div {
 	height: 0.5rem;
 	background-color: black;
-	background-color: var(--o-colors-teal, black); // sass-lint:disable-line no-duplicate-properties
+	background-color: var(--o-colors-teal, black); // stylelint-disable-line declaration-block-no-duplicate-properties
 }
 
 .demo-named-spaces-container {
@@ -39,7 +39,7 @@ body {
 	vertical-align: top;
 	margin-bottom: oSpacingByIncrement(5);
 	background: black;
-	background: var(--o-colors-teal, black); // sass-lint:disable-line no-duplicate-properties
+	background: var(--o-colors-teal, black); // stylelint-disable-line declaration-block-no-duplicate-properties
 }
 
 .demo-named-space--s1::before {
